@@ -31,7 +31,7 @@ describe("About Arrays", function() {
 
   it("should understand that the length can be zero", function () {
     var array = [];
-    expect(array.length).toEqual(FILL_ME_IN);
+    expect(array.length).toEqual(0);
   });
 
   it("should understand array length", function () {
