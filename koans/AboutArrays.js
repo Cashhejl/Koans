@@ -29,6 +29,11 @@ describe("About Arrays", function() {
     expect(array).toEqual([1,2,3]);
   });
 
+  it("should understand that the length can be zero", function () {
+    var array = [];
+    expect(array.length).toEqual(FILL_ME_IN);
+  });
+
   it("should understand array length", function () {
     var fourNumberArray = [1, 2, 3, 4];
 
